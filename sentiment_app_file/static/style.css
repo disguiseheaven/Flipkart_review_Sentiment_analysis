@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e0d780;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c2725e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(235, 155, 155, 0.247);
+    text-align: center;
+}
+
+.pic_container{
+    background-image: url('product-jpeg.png');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    color: #450be2;
+}
+
+h2{
+    text-align: center;
+    color: #f7ecec;
+}
+
+textarea{
+    background-color: rgb(191, 247, 244);
+}
+
+input[type='submit']{
+    width: 40%;
+    padding: 10px;
+    background-color: #42ebeb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.positive{
+    background-image: url('thumbup.jpg');
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.negative{
+    background-image: url('thumbdown.jpg');
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    width: 20%;
+    padding: 10px;
+    background-color: #90e9f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
